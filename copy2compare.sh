@@ -21,9 +21,6 @@ copy_pattern(){
 }
 
 compare_pattern(){
-    # echo === Compare Start ===
-    # diff -urq "$1"/. "$2"
-    # echo === Compare Complete ===
     echo "=== Compare Start ==="
     tmpfile=$(mktemp)
     diff -urq "$1"/. "$2" > "$tmpfile"
