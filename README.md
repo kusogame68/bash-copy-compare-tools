@@ -1,4 +1,4 @@
-# copy2compare.sh
+# Linux Bash copy2compare.sh
 
 ## 📄 Description
 
